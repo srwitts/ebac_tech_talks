@@ -13,12 +13,76 @@
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
-            <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+            <p id="hero-text" class="hero__text">
+                O maior evento de tecnologia do Brasil começa em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/12/2023 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
     </header>
+    <section class="event event--frontend">
+        <div class="container container-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-End</h2>
+                <p class="event__details__description">
+                    O profissional desenvolvedor front-end é o responsável por colocar em prática, através de códigos, o design de um site ou interface. Enquanto o web design projeta o visual de um site, o desenvolvimento front-end implementa esse design através de códigos, como HTML, CSS e JavaScript.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend2.png" alt="Front-End">
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class="container container-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">
+                    Como designer de UI/UX, sua principal responsabilidade será pesquisar, projetar e entregar as melhores interfaces de UX, realizar testes de usabilidade e criar maquetes de baixa e alta fidelidade para validar conceitos de design.
+                </p>
+            </div>
+            <img class="event__image" src="./images/uiux2.png" alt="UI/UX">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container container-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Este profissional trabalha com pesquisa e desenvolvimento de algoritmos que são usados para criar sistemas inteligentes. Eles constroem sistemas para recomendação de produtos ou para prever demandas em determinados produtos ou serviços e exploram Big Data para extrair padrões dos dados.
+                </p>
+            </div>
+            <img class="event__image" src="./images/datascience2.png" alt="Data Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container container-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-End</h2>
+                <p class="event__details__description">
+                    Desenvolvedores back-end focam principalmente em como o website funciona. Eles escrevem códigos focados na funcionalidade e na lógica que faz o aplicativo web que eles trabalham funcionar, e a tecnologia que eles utilizam nunca é vista pelos usuários que acessam a aplicação web.
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend2.png" alt="Back-End">
+        </div>
+    </section>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
